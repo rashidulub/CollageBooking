@@ -2,7 +2,6 @@
 [
    
     {
-        "_id": "642c155b2c4774f05c36ee7c",
         "collage_name": "University of Oxford",
         "enroll": 265,
         "event": "Conferences and Seminars: These are gatherings of people with similar interests or in a specific industry, where they exchange knowledge, ideas, and experiences.",
@@ -17,7 +16,6 @@
 
     },
     {
-        "_id": "642c155b2c4774f05c36ee7a",
         "collage_name": "Harvard University",
         "admission_date": "11 may 2023",
         "enroll": 365,
@@ -33,7 +31,6 @@
 
     },
     {
-        "_id": "642c155b2c4774f05c36ee8c",
         "collage_name": "Sorbonne University",
         "enroll": 202,
         "research":"Documentaries and Films: Many documentaries and historical films present historical events in an engaging and visual format.",
@@ -48,7 +45,6 @@
         "sports": "Cycling ,Gymnastics ,Field Hockey"
     },
     {
-        "_id": "642c155b2c4774f05c36ee94",
         "collage_name": "University of Tokyo",
         "enroll": 135,
         "research":"Historical Books and Publications: Books written by historians provide in-depth analyses of specific historical periods or events. Look for works by renowned historians to gain insights into your area of interest.",
@@ -62,7 +58,6 @@
         "sports": "Volleyball ,Badminton ,Table Tennis"
     },
     {
-        "_id": "642c155b2c4774f05c36ee8c",
         "collage_name": "Sorbonne University",
         "enroll": 202,
         "research":"Documentaries and Films: Many documentaries and historical films present historical events in an engaging and visual format.",
@@ -77,7 +72,6 @@
         "sports": "Cycling ,Gymnastics ,Field Hockey"
     },
     {
-        "_id": "642c155b2c4774f05c36ee9e",
         "collage_name": "University of Melbourne",
         "research":"Historical Societies: Local and national historical societies are dedicated to preserving and promoting history. They often organize events, publish journals, and offer resources for researchers.",
         "event": "Trade Shows and Expos: Events where companies showcase their products and services to potential clients and customers.",
@@ -87,7 +81,6 @@
         "sports": "Golf ,Swimming ,Athletics (Track and Field)"
     },
     {
-        "_id": "642c155b2c4774f05c36ee7f",
         "collage_name": "University of Cape Town ",
         "enroll": 85,
         "research":"Museums and Historical Sites: Museums often have exhibits and artifacts that provide insights into various historical periods and events. Visiting historical sites can also offer a tangible connection to the past.",
@@ -101,7 +94,6 @@
         "sports": "Tennis ,Baseball ,Rugby"
     },
     {
-        "_id": "642c155b2c4774f05c36ee7e",
         "collage_name": "McGill University",
         "enroll": 120,
         "research":"Libraries and Archives: Many libraries and archives offer access to historical documents, manuscripts, books, and other materials that can be valuable for historical research. Some notable ones include the Library of Congress (USA), the British Library (UK), and the National Archives and Records Administration (USA).",
@@ -115,7 +107,6 @@
         "sports": "Soccer (Football) ,Basketball ,Cricket"
     },
     {
-        "_id": "642c155b2c4774f05c36ee7f",
         "collage_name": "University of Cape Town ",
         "enroll": 85,
         "research":"Museums and Historical Sites: Museums often have exhibits and artifacts that provide insights into various historical periods and events. Visiting historical sites can also offer a tangible connection to the past.",
