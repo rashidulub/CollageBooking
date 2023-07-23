@@ -1,0 +1,131 @@
+
+[
+   
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "collage_name": "University of Oxford",
+        "enroll": 265,
+        "event": "Conferences and Seminars: These are gatherings of people with similar interests or in a specific industry, where they exchange knowledge, ideas, and experiences.",
+        "research":"Digital Archives of Newspapers: Websites like Chronicling America (USA) and the British Newspaper Archive (UK) provide access to historical newspapers, giving you a contemporary perspective on past events.",
+        "admission_date": "31 june 2023",
+        "instructor": "Mr. Jacks Phero",
+        "image": "https://www.rsicollege.org/assets/img/clg-img/building.jpg",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZ7OqO3IGa0N6MwB__iRp1QakIDxdq90NYQ&usqp=CAU",
+        "price": 14.5,
+        "sports": "Cycling ,Gymnastics ,Field Hockey"
+
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "collage_name": "Harvard University",
+        "admission_date": "11 may 2023",
+        "enroll": 365,
+        "research":"",
+        "event": "Workshops and Training Sessions: Educational events where participants learn specific skills or knowledge.",
+        "instructor": "Emiliano Martinaz",
+       
+        "image": "https://images.shiksha.com/mediadata/images/1342596233phpxa7i7l.jpeg",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-4nzSTP_wrg38c2xEkWqRhKbcmYuyLOYtmQ&usqp=CAU",
+        "price": 14.5,
+        "sports": "Cycling ,Gymnastics ,Field Hockey"
+
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8c",
+        "collage_name": "Sorbonne University",
+        "enroll": 202,
+        "research":"Documentaries and Films: Many documentaries and historical films present historical events in an engaging and visual format.",
+        "event": "Corporate Events: Business-related events such as product launches, team-building activities, or annual meetings.",
+        "admission_date": "1 fab 2023",
+        "instructor": "Rocklencer",
+        "image": "https://images.shiksha.com/mediadata/images/1342596236phpalRKTC.jpeg",
+        "category": "popular_class",
+        
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJarvd6yizHwqvBLYR3P3BENoqKE-YpbRMggL9EBufj3QKh7za5mz9NXh49lNAAs1gY1E&usqp=CAU",
+        "price": 12.5,
+        "sports": "Cycling ,Gymnastics ,Field Hockey"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee94",
+        "collage_name": "University of Tokyo",
+        "enroll": 135,
+        "research":"Historical Books and Publications: Books written by historians provide in-depth analyses of specific historical periods or events. Look for works by renowned historians to gain insights into your area of interest.",
+        "event": "Charity and Fundraising Events: Events organized to raise funds and awareness for a cause or charity.",
+        "admission_date": "5 may 2023",
+        "instructor": "weiliem",
+        "image": "https://images.collegedunia.com/public/college_data/images/appImage/14920860631445429716ICFNEW.jpg",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxX_6jPgOPvTVof6gw3FcAuaCNrufeF81pXV5DsQ0Qroiz-gqbd9G29x4PC55G5-N2p0&usqp=CAU",
+        "price": 12.5,
+        "sports": "Volleyball ,Badminton ,Table Tennis"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8c",
+        "collage_name": "Sorbonne University",
+        "enroll": 202,
+        "research":"Documentaries and Films: Many documentaries and historical films present historical events in an engaging and visual format.",
+        "event": "Corporate Events: Business-related events such as product launches, team-building activities, or annual meetings.",
+        "admission_date": "1 fab 2023",
+        "instructor": "Rocklencer",
+        "image": "https://images.shiksha.com/mediadata/images/1342596236phpalRKTC.jpeg",
+        "category": "popular_class",
+        
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJarvd6yizHwqvBLYR3P3BENoqKE-YpbRMggL9EBufj3QKh7za5mz9NXh49lNAAs1gY1E&usqp=CAU",
+        "price": 12.5,
+        "sports": "Cycling ,Gymnastics ,Field Hockey"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee9e",
+        "collage_name": "University of Melbourne",
+        "research":"Historical Societies: Local and national historical societies are dedicated to preserving and promoting history. They often organize events, publish journals, and offer resources for researchers.",
+        "event": "Trade Shows and Expos: Events where companies showcase their products and services to potential clients and customers.",
+        "image": "https://media.getmyuni.com/azure/college-images-test/international-college-of-fashion-icf-new-delhi/495cbdc1f3c94c9181b5c82d04d4192d.jpeg",
+        "category": "popular_class",
+        "price": 12.9,
+        "sports": "Golf ,Swimming ,Athletics (Track and Field)"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7f",
+        "collage_name": "University of Cape Town ",
+        "enroll": 85,
+        "research":"Museums and Historical Sites: Museums often have exhibits and artifacts that provide insights into various historical periods and events. Visiting historical sites can also offer a tangible connection to the past.",
+        "event": "Festivals: Cultural, music, film, or art festivals that celebrate specific themes or traditions.",
+        "admission_date": "1 jan 2023",
+        "instructor": "Dhirandra",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeBUbsY2wPWFCmFqn4rrnzR61z5JczwRzAKDmSikGYfo-C8-BcuWqxitO7LG7Dlmc2q8&usqp=CAU",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeBUbsY2wPWFCmFqn4rrnzR61z5JczwRzAKDmSikGYfo-C8-BcuWqxitO7LG7Dlmc2q8&usqp=CAU",
+        "price": 14.5,
+        "sports": "Tennis ,Baseball ,Rugby"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7e",
+        "collage_name": "McGill University",
+        "enroll": 120,
+        "research":"Libraries and Archives: Many libraries and archives offer access to historical documents, manuscripts, books, and other materials that can be valuable for historical research. Some notable ones include the Library of Congress (USA), the British Library (UK), and the National Archives and Records Administration (USA).",
+        "event": "Music Concerts: Events featuring performances by musicians or bands, attracting audiences who enjoy live music.",
+        "admission_date": "1 aug 2023",
+        "instructor": "Jecsion",
+        "image": "https://images.collegedunia.com/public/college_data/images/appImage/14920860631445429716ICFNEW.jpg",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlDKe45vxP2Xgtjp3yNG3nlzP-AqeA-VRlMw&usqp=CAU",
+        "price": 14.5,
+        "sports": "Soccer (Football) ,Basketball ,Cricket"
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7f",
+        "collage_name": "University of Cape Town ",
+        "enroll": 85,
+        "research":"Museums and Historical Sites: Museums often have exhibits and artifacts that provide insights into various historical periods and events. Visiting historical sites can also offer a tangible connection to the past.",
+        "event": "Festivals: Cultural, music, film, or art festivals that celebrate specific themes or traditions.",
+        "admission_date": "1 jan 2023",
+        "instructor": "Dhirandra",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeBUbsY2wPWFCmFqn4rrnzR61z5JczwRzAKDmSikGYfo-C8-BcuWqxitO7LG7Dlmc2q8&usqp=CAU",
+        "category": "popular_class",
+        "imageIns": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeBUbsY2wPWFCmFqn4rrnzR61z5JczwRzAKDmSikGYfo-C8-BcuWqxitO7LG7Dlmc2q8&usqp=CAU",
+        "price": 14.5,
+        "sports": "Tennis ,Baseball ,Rugby"
+    }
+]
