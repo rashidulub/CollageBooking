@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="footer p-10 bg-neutral text-neutral-content">
                 <div>
                 <img className='w-24 rounded-full' src="" alt="" />
-                    <p>Arsenal Sports Club Ltd.<br />Providing reliable tech since 1992</p>
+                    <p>Arsenal Collage Admission service Ltd.<br />Providing reliable tech since 1992</p>
                 </div>
                 <div>
                     <span className="footer-title">Social</span>
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="footer footer-center p-4 bg-neutral text-base-content">
   <div>
-    <p className='text-white'>Copyright © 2023 - All right reserved by sports-club Ltd</p>
+    <p className='text-white'>Copyright © 2023 - All right reserved by Collage Admission Service Ltd</p>
   </div>
 </div>
 

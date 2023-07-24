@@ -1,26 +1,22 @@
 // import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../../Provider/AuthProvider';
 // import logo from '../../../assets/Home/logo1.jpg'
 // import { AuthContext } from '../../Provider/AuthProvider';
 
 const Navbar = () => {
 //   const { user, LogOut } = useContext(AuthContext)
+const {user,logOut }= useContext(AuthContext)
 
-//   const [theme, setTheme] = React.useState('light');
-//   const toggleTheme = () => {
-//     setTheme(theme === 'dark' ? 'light' : 'dark');
-//   };
-//   // initially set the theme and "listen" for changes to apply them to the HTML tag
-//   React.useEffect(() => {
-//     document.querySelector('html').setAttribute('data-theme', theme);
-//   }, [theme]);
 
-//   const handleLogout = () => {
-//     LogOut()
-//       .then(() => { })
-//       .catch(error => console.log(error))
 
-//   }
+  const handleLogout = () => {
+    logOut()
+      .then(() => { })
+      .catch(error => console.log(error))
+
+  }
   return (
     <div>
       <div className="navbar    bg-opacity-50 text-white max-w-screen-xl bg-neutral ">  
@@ -38,10 +34,14 @@ const Navbar = () => {
               
               
            
-              {/* <img className='w-16 mr-4     rounded-full' src={user?.photoURL} alt="" /> */}
-              <button type="submit"  className="btn mr-5 ">Logout</button>   
+              {
+            user ? <>
               
+              <button type="submit" onClick={handleLogout} className="btn mr-5 ">Logout</button>    </> :
+              <>
                 <Link className="mr-5" to='/login'><button type="submit" className="btn ">Login</button></Link>
+              </>
+          }
              
           
 
@@ -71,16 +71,16 @@ const Navbar = () => {
 
           
         
-
-
-          {/* {
+        
+        
+          {
             user ? <>
-              <img className='w-16 mr-4     rounded-full' src={user?.photoURL} alt="" />
+              
               <button type="submit" onClick={handleLogout} className="btn mr-5 ">Logout</button>    </> :
               <>
                 <Link className="mr-5" to='/login'><button type="submit" className="btn ">Login</button></Link>
               </>
-          } */}
+          }
 
 
         </div>

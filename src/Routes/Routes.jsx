@@ -9,6 +9,9 @@ import Admission from "../pages/Home/Admission/Admission";
 import MyCollage from "../pages/Home/MyCollage/MyCollage";
 import ViewDetails from "../pages/Home/Home/ViewDetails/ViewDetails";
 import ViewClass from "../pages/ViewClass/ViewClass";
+import Login from "../pages/Home/Home/Login/Login";
+import SignUp from "../pages/Home/Home/Login/SingUp/SignUp";
+import PrivateRoutes from "./PrivateRoutes";
 
 
   export const router = createBrowserRouter([
@@ -35,11 +38,19 @@ import ViewClass from "../pages/ViewClass/ViewClass";
         },
         {
           path:'view',
-          element:<ViewDetails></ViewDetails>
+          element:<PrivateRoutes><ViewDetails></ViewDetails></PrivateRoutes>
         },
         {
           path:'/viewclass',
-          element:<ViewClass></ViewClass>
+          element:<PrivateRoutes><ViewClass></ViewClass></PrivateRoutes>
+        },
+        {
+          path:'login',
+        element:<Login></Login>
+        },
+        {
+          path:'signup',
+          element:<SignUp></SignUp>
         }
       ]
     },
