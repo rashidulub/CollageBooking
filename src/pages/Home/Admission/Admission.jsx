@@ -108,7 +108,7 @@ const Admission = () => {
 
 
 
-                <input type="submit" value="Add A Class" className="btn font-bold text-white bg-blue-950 btn-block" />
+                <input type="submit" value="Add A Collage" className="btn font-bold text-white bg-blue-950 btn-block" />
 
             </form>
         </div>

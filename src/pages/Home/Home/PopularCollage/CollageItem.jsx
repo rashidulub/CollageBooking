@@ -11,7 +11,7 @@ const CollageItem = ({item}) => {
             <p className="text-start  text-xl text-black">Admission Date: <span className='font-bold text-xl text-purple-950'>{admission_date}</span> </p>
             <p className="text-start text-xl mb-6 font-bold text-base text-black">Events: <span className='font-bold text-base text-green-950'>{event}</span></p>
             
-            <Link to={`/view/${_id}`}><button className="btn btn-active btn-neutral" >View Details</button></Link>
+            <Link to={'/viewclass'}><button className="btn btn-active btn-neutral" >View Details</button></Link>
             
         </div>
     </div>
