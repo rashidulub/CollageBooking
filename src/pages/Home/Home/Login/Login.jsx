@@ -33,9 +33,9 @@ const Login = () => {
         <div className="hero min-h-screen bg-base-200">
         
        <div className="hero-content flex-col lg:flex-row">
-           <div className="w-1/2 mr-12">
+           <digv className="w-1/2 mr-12">
                <img className='rounded-full' src={slider1} alt="" />
-           </div>
+           </digv>
            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                <div className="card-body">
                    <h1 className="text-3xl text-center font-bold">Login</h1>

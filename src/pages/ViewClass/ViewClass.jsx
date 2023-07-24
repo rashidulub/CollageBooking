@@ -4,7 +4,7 @@ import ViewDetails from "../Home/Home/ViewDetails/ViewDetails";
 const ViewClass = () => {
     const [menu, setMenu]= useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/menu')
+        fetch('https://collage-admission-services-server.vercel.app/menu')
         .then(res=>res.json())
         .then(data=> {
             const PopularClass =data.filter(item=>item.category ==='popular_class');

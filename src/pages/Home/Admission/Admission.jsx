@@ -18,7 +18,7 @@ const Admission = () => {
 
         const newAdmission = { name, subject: address, subject,email,date, image }
         console.log(newAdmission);
-        fetch('http://localhost:5000/collages', {
+        fetch('https://collage-admission-services-server.vercel.app/collages', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

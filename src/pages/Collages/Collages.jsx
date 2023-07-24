@@ -5,7 +5,7 @@ import CollagesCard from "../Home/Home/PopularCollage/CollagesCard";
 const Collages = () => {
     const [menu, setMenu]= useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/menu')
+        fetch('https://collage-admission-services-server.vercel.app/menu')
         .then(res=>res.json())
         .then(data=> {
             

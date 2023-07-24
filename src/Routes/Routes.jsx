@@ -34,7 +34,7 @@ import PrivateRoutes from "./PrivateRoutes";
         {
           path:'mycollage',
           element:<MyCollage></MyCollage>,
-          loader:()=> fetch('http://localhost:5000/collages')
+          loader:()=> fetch('https://collage-admission-services-server.vercel.app/collages')
         },
         {
           path:'view',
