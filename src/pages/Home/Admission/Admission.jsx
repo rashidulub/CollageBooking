@@ -1,4 +1,4 @@
-
+import Swal from 'sweetalert2';
 const Admission = () => {
     const handleAddClass = event => {
         
@@ -14,11 +14,11 @@ const Admission = () => {
         const date = form.date.value;
         const image = form.image.value;
 
-        
+          
 
         const newAdmission = { name, subject: address, subject,email,date, image }
         console.log(newAdmission);
-        fetch('https://summer-camp-school-server-kappa.vercel.app/addClass', {
+        fetch('http://localhost:5000/collages', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -28,6 +28,14 @@ const Admission = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
+                if(data.insertedId){
+                    Swal.fire({
+                        title: 'Success!',
+                        text: 'Class Add Successfully',
+                        icon: 'success',
+                        confirmButtonText: 'Cool'
+                      })
+                }
                 
 
             })

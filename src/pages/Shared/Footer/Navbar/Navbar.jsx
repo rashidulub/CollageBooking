@@ -34,7 +34,7 @@ const Navbar = () => {
               <li ><Link to='/collages'>Collages</Link></li>
               <li > <Link className="mr-5" to='/admission'>Admission</Link></li>
               
-              <li><Link className="mr-5" to='/dashboard/design'>My collage</Link></li>
+              <li><Link className="mr-5" to='/mycollage'>My collage</Link></li>
               
               
            
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link className="mr-5" to='/'>Home</Link>
             <Link className="mr-5" to='/collages'>Collages</Link>
             <Link className="mr-5" to='/admission'>Admission</Link>
-            <Link className="mr-5" to='/dashboard/design'>My Collage</Link>
+            <Link className="mr-5" to='/mycollage'>My Collage</Link>
            
 
 

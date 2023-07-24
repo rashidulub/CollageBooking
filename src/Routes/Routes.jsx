@@ -6,6 +6,7 @@ import Main from "../Layouts/Main";
 import Home from "../pages/Home/Home/Home";
 import Collages from "../pages/Collages/Collages";
 import Admission from "../pages/Home/Admission/Admission";
+import MyCollage from "../pages/Home/MyCollage/MyCollage";
 
 
   export const router = createBrowserRouter([
@@ -24,6 +25,11 @@ import Admission from "../pages/Home/Admission/Admission";
         {
             path:'admission',
             element:<Admission></Admission>
+        },
+        {
+          path:'mycollage',
+          element:<MyCollage></MyCollage>,
+          loader:()=> fetch('http://localhost:5000/collages')
         }
       ]
     },
